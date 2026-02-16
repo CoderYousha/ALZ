@@ -1,0 +1,115 @@
+.category-hover img {
+    transition: 0.5s ease;
+}
+
+.category-hover:hover {
+    background: #f36565 !important;
+}
+
+.card-inner {
+    transition: transform 0.7s !important;
+    transform-style: preserve-3d !important;
+    border: none;
+}
+
+.front-face,
+.back-face {
+    backface-visibility: hidden;
+}
+
+.back-face {
+    /* background-color: gray !important; */
+    transform: rotateY(180deg) !important;
+}
+
+
+.hover-features:hover i {
+    animation: shake 0.3s;
+}
+
+.hover-features:hover h3 {
+    animation: shake 0.3s;
+}
+
+.category-hover:hover img {
+    transform: scale(1.2) !important;
+}
+
+.category-hover:hover h2 {
+    color: white !important;
+}
+
+.category-hover:hover .btn {
+    border: 2px solid white !important;
+    color: white;
+}
+
+.category-hover .btn:hover {
+    background-color: white;
+    color: red;
+}
+
+.contact-a-hover:hover {
+    background: red;
+    border: 2px white !important;
+}
+
+.contact-a-hover:hover i {
+    color: white !important;
+}
+
+.card:hover .card-inner, .card1:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+#contact .contact-info a.btn:hover {
+    color: white;
+    background: red;
+    border: 2px white;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
