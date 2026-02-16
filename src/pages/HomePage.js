@@ -24,14 +24,14 @@ function HomePage() {
                {/* Aboutus */}
                <Aboutus />
 
-               {/* Catalogues */}
-               <Catalogues />
-
                {/* Services */}
                <Services />
 
                {/* Categories */}
                <Categories />
+
+               {/* Catalogues */}
+               <Catalogues />
 
                {/* Faqs */}
                <Faqs />
